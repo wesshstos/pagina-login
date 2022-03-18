@@ -109,10 +109,7 @@ h1,h4{
 }
 
 .link-radio{
-     display: block;
-     width: 200px;
-     height: 60px;
-     padding: 5px 10px 20px 0;
+     margin: 10px 0;
 }
 
 .link-radio input{
@@ -162,4 +159,105 @@ h1,h4{
      color: var(--blue);
      text-transform: uppercase;
      font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+     .form-login{
+          padding: 10px;
+          height: 100vh;
+     }
+
+     .box-login{
+          margin: 1rem;
+     }
+
+     .title-form > h4{
+          margin: 0 0  10px 0;
+          font-size: 1.2rem;
+     }
+
+     .title-form > h1{
+          margin: 0 0 15px 0;
+          font-size: 1.5rem;
+     }
+
+     .lbl-inpt{
+          margin: 5px 0;
+     }
+
+     .lbl-inpt > label, .lbl-inpt > input, .lbl-inpt > a{
+          font-size: 1.2rem;
+          margin: 0 0 5px 0;
+          padding: 5px 0;
+     }
+
+     .lbl-inpt > input{
+          height: 40px;
+          padding: 10px;
+     }
+
+     .btns-login input, .btns-login button{
+          width: 90%;
+          font-size: 1.2rem;
+     }
+
+     .link-register{
+          font-size: 1.2rem;
+     }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+     .content{
+          flex-direction: column;
+          height: 100%;
+     }
+
+     .banner-img{
+          display: none;
+     }
+
+     .form-login{
+          padding: 10px;
+          height: 100vh;
+     }
+
+     .box-login{
+          margin: 1rem;
+     }
+
+     .title-form > h4{
+          margin: 0 0  10px 0;
+          font-size: 1.2rem;
+     }
+
+     .title-form > h1{
+          margin: 0 0 15px 0;
+          font-size: 1.5rem;
+     }
+
+     .lbl-inpt{
+          margin: 5px 0;
+     }
+
+     .lbl-inpt > label, .lbl-inpt > input, .lbl-inpt > a{
+          font-size: 1.2rem;
+          margin: 0 0 5px 0;
+          padding: 5px 0;
+     }
+
+     .lbl-inpt > input{
+          height: 40px;
+          padding: 10px;
+     }
+
+     .btns-login input, .btns-login button{
+          width: 90%;
+          font-size: 1.2rem;
+     }
+
+     .link-register{
+          font-size: 1.2rem;
+     }
+     
 }
